@@ -35,5 +35,5 @@ if __name__ == '__main__':
 	number_of_sites = len([m for m in meteor_data if m['distance'] <= dist_treshold])
 		
 	meteor_data.sort(key=get_dist)    
-	print("Found {0} landing sites within {1} km from you location:".format(number_of_sites, dist_treshold))
+	print("Found {0} landing sites within {1} km from you location:\n".format(number_of_sites, dist_treshold))
 	print(meteor_data[0:number_of_sites])	
