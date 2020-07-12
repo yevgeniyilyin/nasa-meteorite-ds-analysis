@@ -9,5 +9,5 @@ Install pipenv. Then:
 
 ```
 pipenv install
-pipenv run "python meteors_data_analysis.py"
+pipenv run "python meteors/meteors_data_analysis.py"
 ```
